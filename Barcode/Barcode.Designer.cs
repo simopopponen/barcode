@@ -177,7 +177,7 @@
             // 
             // txtEncodedBarcode
             // 
-            this.txtEncodedBarcode.Font = new System.Drawing.Font("Code 128", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.txtEncodedBarcode.Font = new System.Drawing.Font("Code 128", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtEncodedBarcode.Location = new System.Drawing.Point(60, 385);
             this.txtEncodedBarcode.Name = "txtEncodedBarcode";
             this.txtEncodedBarcode.Size = new System.Drawing.Size(608, 72);
@@ -192,6 +192,7 @@
             this.button1.TabIndex = 13;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Visible = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // printDialog1
